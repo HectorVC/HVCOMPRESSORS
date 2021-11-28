@@ -138,16 +138,6 @@ text-align: center;
 line-height: 1.5;
 }
 
-/* aside de color */
-
-.asideSpan {
-    margin: 50px;
-display:inline-block; }
-.sticky {position: sticky;}
-
-
-
-
 /* cambiar color por etiqueta */
 h6 {color:red;}
 footer p {color:mediumblue;}
