@@ -1,0 +1,23 @@
+{
+  "name": "hv-pro",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000V\u0000C\u0000O\u0000M\u0000P\u0000R\u0000E\u0000S\u0000S\u0000O\u0000R\u0000S\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorVC/HVCOMPRESSORS.git"
+  },
+  "author": "Hector Viveros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorVC/HVCOMPRESSORS/issues"
+  },
+  "homepage": "https://github.com/HectorVC/HVCOMPRESSORS#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
