@@ -5,7 +5,7 @@ body {background-color: white;}
 body {font-family:Arial, Helvetica, sans-serif;}
 /* Header */
 .encabezado {
-    background-image: url(./img/fondo-blanco.png);
+    background-image: url("../img/fondo-blanco.png");
     flex-flow: row;
     flex-wrap: wrap;  
     justify-content: flex-start;
@@ -78,7 +78,7 @@ background: rgba(46, 46, 46, 0.192);
     margin-top: 10px;
     width: auto;
     height: 500px;
-    background-image: url(./img/biografia.png);
+    background-image: url("../img/biografia.png");
     text-align: center;
     display:flex;
 flex-direction: row;
