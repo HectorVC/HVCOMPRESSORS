@@ -5,7 +5,7 @@ body {background-color: white;}
 body {font-family:Arial, Helvetica, sans-serif;}
 /* Header */
 .encabezado {
-    background-image: url "/img/fondo-blanco.png";
+    background-image: url"/img/fondo-blanco.png";
     flex-flow: row;
     flex-wrap: wrap;  
     justify-content: flex-start;
@@ -78,7 +78,7 @@ background: rgba(46, 46, 46, 0.192);
     margin-top: 60px;
     width: 100%;
     height: 500px;
-    background-image: url("../img/biografia.png");
+    background-image: url"/img/biografia.png";
     text-align: center;
     display:flex;
 flex-direction: row;
@@ -116,7 +116,7 @@ align-content: center;
 .biografia {
     display: flex;
     justify-content: center;
-    background-image:url( "../logo.jpg");
+    background-image:url"/logo.jpg";
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -184,7 +184,7 @@ a{color: black;text-decoration: black;}
     align-content:center ;
     }
     .img-1 {
-        background-image: url("../img/img-1.png");
+        background-image: url"/img/img-1.png";
     grid-area: img ;}
 .img-2 { 
     background-image: url("../img/img-2.png");
