@@ -76,7 +76,7 @@ background: rgba(46, 46, 46, 0.192);
 /* imagen de descripcion */
 .contenedor-imagen {
     margin-top: 10px;
-    width: 100%;
+    width: auto;
     height: 500px;
     background-image: url(/img/biografia.png);
     text-align: center;
