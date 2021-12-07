@@ -3,10 +3,10 @@
     background-image: url("../img/fondo-blanco.png");
     flex-flow: row;
     flex-wrap: wrap;  
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 140px;
 &-principal {
     display: flex;
     align-content: center;
@@ -19,22 +19,10 @@
 &-fijo {
     position: sticky;
         top: 0;}
-        &-contactanos {
-            height: 35px;
-            border: solid 1px grey;
-            background:red;
+        &-eslogan {
             display: flex;
             align-content: center;
             align-items: center;
-            color: white;
-            text-decoration: none;
-            transform: translate(500px,0px);}
-            &-info {
-                height: 35px;
-                display: flex;
-                align-content: center;
-                align-items: center;
-                color: grey;
-                text-decoration: none;
-                transform: translate(500px,0px);}
+            color: black;
+            text-decoration: none;}
             }

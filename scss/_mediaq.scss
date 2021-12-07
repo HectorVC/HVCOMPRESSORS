@@ -1,0 +1,18 @@
+// Mi PC es de 1024px
+
+//Extra grandes (4k )1904 > 
+
+//Grandes (Escritorio) 1264 >
+
+//Medianas (Tablets o Laptop ) 960 >
+
+//Medianas (Tablets ch y md) 600>
+
+//Chicas (Celulares) 600 <
+
+
+
+@media screen and (max-width: 959px) {
+.navegador {flex-direction: column;}
+.contenedor-imagen { height: 400px;}
+}
