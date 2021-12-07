@@ -8,8 +8,6 @@ body {
 header div h5 {
   padding: 5px; }
 
-/* termino hader y barra de navegacion  */
-/* imagen de descripcion */
 .contenedor-imagen {
   margin-top: 10px;
   width: auto;
@@ -121,47 +119,35 @@ a {
   align-content: center; }
 
 .img-1 {
-  background-image: url(./img/img-1.png);
+  background-image: url(../img/img-1.png);
   grid-area: img; }
 
 .img-2 {
-  background-image: url(./img/img-2.png);
+  background-image: url(../img/img-2.png);
   grid-area: img-2; }
 
 .img-3 {
-  background-image: url(./img/img-3.png);
+  background-image: url(../img/img-3.png);
   grid-area: img-3; }
 
 .img-4 {
-  background-image: url(./img/img-4.png);
+  background-image: url(../img/img-4.png);
   grid-area: img-4; }
 
 .img-5 {
-  background-image: url(./img/img-5.png);
+  background-image: url(../img/img-5.png);
   grid-area: img-5; }
 
 .img-6 {
-  background-image: url(./img/img-6.png);
+  background-image: url(../img/img-6.png);
   grid-area: img-6; }
 
 .img-7 {
-  background-image: url(./img/img-7.png);
+  background-image: url(../img/img-7.png);
   grid-area: img-7; }
 
 .collage-imagen {
   background-color: green; }
-
-header {
-  background-color: red;
-  color: beige; }
-  header-menu {
-    background-color: blue; }
-  header-imagen {
-    background-color: brown; }
-  header-logo {
-    background-color: coral; }
-  header-icono {
-    background-color: cornflowerblue; }
 
 .encabezado {
   background-image: url("../img/fondo-blanco.png");
