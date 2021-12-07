@@ -1,0 +1,21 @@
+.navegador {
+    width: 100%;
+    height: 40px;
+    display: flex;
+   justify-content:start;
+align-items: center;
+align-content: center;
+&-enlace {
+    text-decoration: none;
+    color: grey;
+    border: solid 1px gray;
+padding: 10px 60px 10px 60px;}
+&-vacio {
+    color:white;
+    border: solid 1px gray;
+padding: 10px 141px 10px 130px;}
+}
+
+.nav-enlace:hover{
+background: rgba(46, 46, 46, 0.192);
+}

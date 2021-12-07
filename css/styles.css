@@ -1,87 +1,12 @@
-/* Este es el SCSS Principal 
-simon
-*/
-/* html */
 html {
   font-size: 100%; }
 
-/* Body */
 body {
-  background-color: white; }
-
-body {
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif; }
-
-/* Header */
-.encabezado {
-  background-image: url("../img/fondo-blanco.png");
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  display: flex;
-  width: 100%;
-  height: 150px; }
-
-.menu-principal {
-  display: flex;
-  align-content: center;
-  align-items: center; }
 
 header div h5 {
   padding: 5px; }
-
-.contactanos {
-  height: 35px;
-  border: solid 1px grey;
-  background: red;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  transform: translate(500px, 0px); }
-
-.info {
-  height: 35px;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  color: grey;
-  text-decoration: none;
-  transform: translate(500px, 0px); }
-
-.headerLogoImg {
-  width: 76px;
-  height: 50px;
-  color: black;
-  margin: 20px; }
-
-/* barra de navegacion */
-.fijo {
-  position: sticky;
-  top: 0; }
-
-.navegador {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  align-content: center; }
-
-.nav-enlace {
-  text-decoration: none;
-  color: grey;
-  border: solid 1px gray;
-  padding: 10px 60px 10px 60px; }
-
-.nav-vacio {
-  color: white;
-  border: solid 1px gray;
-  padding: 10px 141px 10px 130px; }
-
-.nav-enlace:hover {
-  background: rgba(46, 46, 46, 0.192); }
 
 /* termino hader y barra de navegacion  */
 /* imagen de descripcion */
@@ -227,12 +152,72 @@ a {
   background-color: green; }
 
 header {
-  background-color: red; }
-  headermenu {
+  background-color: red;
+  color: beige; }
+  header-menu {
     background-color: blue; }
-  headerimagen {
+  header-imagen {
     background-color: brown; }
-  headerlogo {
+  header-logo {
     background-color: coral; }
-  headericono {
+  header-icono {
     background-color: cornflowerblue; }
+
+.encabezado {
+  background-image: url("../img/fondo-blanco.png");
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  height: 150px; }
+  .encabezado-principal {
+    display: flex;
+    align-content: center;
+    align-items: center; }
+  .encabezado-Logo-Img {
+    width: 76px;
+    height: 50px;
+    color: black;
+    margin: 20px; }
+  .encabezado-fijo {
+    position: sticky;
+    top: 0; }
+  .encabezado-contactanos {
+    height: 35px;
+    border: solid 1px grey;
+    background: red;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transform: translate(500px, 0px); }
+  .encabezado-info {
+    height: 35px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: grey;
+    text-decoration: none;
+    transform: translate(500px, 0px); }
+
+.navegador {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center; }
+  .navegador-enlace {
+    text-decoration: none;
+    color: grey;
+    border: solid 1px gray;
+    padding: 10px 60px 10px 60px; }
+  .navegador-vacio {
+    color: white;
+    border: solid 1px gray;
+    padding: 10px 141px 10px 130px; }
+
+.nav-enlace:hover {
+  background: rgba(46, 46, 46, 0.192); }
