@@ -12,14 +12,48 @@ header div h5 {padding: 5px;}
     width: 100%;
     height: 500px;
     background-image: url("../img/biografia.png");
-    text-align: center;
+    background-size: contain;
     display:flex;
 flex-direction: row;
 justify-content: center;
 align-items: end;
-align-content: center;
 
 }
+.contenedor-mvs {
+    font-size: 20px;
+    color: white;
+    background-color:rgb(41, 41, 41);
+    align-content: center;
+    justify-content: space-around;
+    flex-flow: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 50px;
+&-d {
+    color: white;
+    background-color:rgb(41, 41, 41);
+    align-content: center;
+    justify-content: space-around;
+    flex-flow: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 100px;}
+}
+.mvs {
+    text-align: center;
+    align-content: center;
+    width: 220px;
+    height: 30px;
+    font-size: 20px;}
+    .mvs-d {
+        text-align: center;
+        align-content: center;
+        width: 220px;
+        height: 60px;
+        font-size: 12px;}
+
 
 .descripcion-imagen {
     background-color:rgba(0, 0, 0, 0.5);
@@ -28,9 +62,11 @@ align-content: center;
     border: solid 1.5px white;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 10px 10px 100px 10px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .descripcion-imagen:hover {background: red;
 }
@@ -49,12 +85,12 @@ align-content: center;
 .biografia {
     display: flex;
     justify-content: center;
-    background-image: url(./img/logo.jpg);
+    background-image: url("../img/biografia.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-height:100%;
-width: 50%;
+height:50%;
+width: 80%;
 overflow: auto;
 color: black;
 /* margenes */
@@ -62,6 +98,7 @@ margin: 10px;
 padding: 20px;
 /* bordes */
 border: solid 5px black;
+border-radius: 20px;
 }
 
 .biografiaDescripcion {
@@ -140,4 +177,9 @@ grid-area: img-7 ;}
 .collage-imagen {
     background-color: green;}
 
-
+.pie-pagina {
+    display: flex;
+background-color: red;
+width: 100%;
+height: 250px;
+}
