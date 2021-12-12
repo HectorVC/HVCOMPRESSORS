@@ -41,13 +41,13 @@ align-items: end;
     width: 100%;
     height: 100px;}
 }
-.mvs {
+.mvs {background-color: brown;
     text-align: center;
     align-content: center;
     width: 220px;
     height: 30px;
     font-size: 20px;}
-    .mvs-d {
+    .mvs-d {background-color: brown;
         text-align: center;
         align-content: center;
         width: 220px;
@@ -71,8 +71,7 @@ align-items: end;
 .descripcion-imagen:hover {background: red;
 }
 /* Quien Somos */
-.quienSomos{
-    color: blue;
+.nuestros-servicios{
     justify-content: center;
     display: flex;
 
@@ -101,12 +100,35 @@ border: solid 5px black;
 border-radius: 20px;
 }
 
-.biografiaDescripcion {
-font-weight:100;
-font-size: 1.25rem;
-text-align: center;
-line-height: 1.5;
+.contenedor-servicios {
+    flex-direction: row;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    height: 445px;
+    background-color: white;
+justify-content: space-around;
+align-content: center;
+&-int {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+    width: 200px;
+    height:370px;
+    background-color: blue;
+    border-radius: 10px;}
+
 }
+.contenedor-servicios-int p {
+    justify-content: center;
+    width: 200px;
+    color: white;
+    background-color: grey;}
+.contenedor-servicios-int:hover {background-color: rgba(128, 128, 128, 0.750)}
+
+
+
 
 /* cambiar color por etiqueta */
 h6 {color:red;}

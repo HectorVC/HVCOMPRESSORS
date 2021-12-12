@@ -5,16 +5,13 @@
     width: 100%;
     height: 1000px;
     background-color:white;
-}
-
-
-.contenedor-contacto-int { 
+&-int { 
     justify-content: center;
     flex-flow: row;
-    display: flex;
+    display: grid;
     width: 60%;
     height: 900px;
     background-color:white;
     border-radius: 20px;
-    border: solid 1.5px black;
+    border: solid 1.5px black;}
 }
