@@ -5,17 +5,21 @@ body {background-color: white;
  font-family:Arial, Helvetica, sans-serif;
 }  
 header div h5 {padding: 5px;}
+// Mixin contenedor
+@mixin flex-row-center {display:flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
 //imagen de descripcion 
 .contenedor-imagen {
+    @include flex-row-center;
     background-repeat: no-repeat;
     margin-top: 5px;
     width: 100%;
     height: 500px;
     background-image: url("../img/biografia.png");
     background-size: contain;
-    display:flex;
-flex-direction: row;
-justify-content: center;
 align-items: end;
 
 }
@@ -25,32 +29,23 @@ align-items: end;
     background-color:rgb(41, 41, 41);
     align-content: center;
     justify-content: space-around;
-    flex-flow: row;
+    flex-direction: row;
     flex-wrap: wrap;
     display: flex;
     width: 100%;
-    height: 50px;
-&-d {
-    color: white;
-    background-color:rgb(41, 41, 41);
-    align-content: center;
-    justify-content: space-around;
-    flex-flow: row;
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
+    height: 50px;}
+.contenedor-mvs-d {
+    @extend .contenedor-mvs;
     height: 100px;}
-}
+
 .mvs {background-color: brown;
     text-align: center;
     align-content: center;
     width: 220px;
     height: 30px;
     font-size: 20px;}
-    .mvs-d {background-color: brown;
-        text-align: center;
-        align-content: center;
-        width: 220px;
+    .mvs-d {
+        @extend .mvs;
         height: 60px;
         font-size: 12px;}
 
@@ -72,8 +67,7 @@ align-items: end;
 }
 /* Quien Somos */
 .nuestros-servicios{
-    justify-content: center;
-    display: flex;
+    @include flex-row-center
 
 }
 
@@ -82,8 +76,7 @@ align-items: end;
 /* biografia */
 
 .biografia {
-    display: flex;
-    justify-content: center;
+   @include flex-row-center;
     background-image: url("../img/biografia.png");
 background-repeat: no-repeat;
 background-size: cover;

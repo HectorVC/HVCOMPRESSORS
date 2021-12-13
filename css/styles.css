@@ -9,40 +9,33 @@ header div h5 {
   padding: 5px; }
 
 .contenedor-imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   background-repeat: no-repeat;
   margin-top: 5px;
   width: 100%;
   height: 500px;
   background-image: url("../img/biografia.png");
   background-size: contain;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: end; }
 
-.contenedor-mvs {
+.contenedor-mvs, .contenedor-mvs-d {
   font-size: 20px;
   color: white;
   background-color: #292929;
   align-content: center;
   justify-content: space-around;
-  flex-flow: row;
+  flex-direction: row;
   flex-wrap: wrap;
   display: flex;
   width: 100%;
   height: 50px; }
-  .contenedor-mvs-d {
-    color: white;
-    background-color: #292929;
-    align-content: center;
-    justify-content: space-around;
-    flex-flow: row;
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
-    height: 100px; }
 
-.mvs {
+.contenedor-mvs-d {
+  height: 100px; }
+
+.mvs, .mvs-d {
   background-color: brown;
   text-align: center;
   align-content: center;
@@ -51,10 +44,6 @@ header div h5 {
   font-size: 20px; }
 
 .mvs-d {
-  background-color: brown;
-  text-align: center;
-  align-content: center;
-  width: 220px;
   height: 60px;
   font-size: 12px; }
 
@@ -76,12 +65,14 @@ header div h5 {
 
 /* Quien Somos */
 .nuestros-servicios {
-  justify-content: center;
-  display: flex; }
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 /* biografia */
 .biografia {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   background-image: url("../img/biografia.png");
   background-repeat: no-repeat;
@@ -226,7 +217,6 @@ a {
   background-color: white; }
   .contenedor-contacto-int {
     justify-content: center;
-    flex-flow: row;
     display: grid;
     width: 60%;
     height: 900px;
