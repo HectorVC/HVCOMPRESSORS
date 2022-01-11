@@ -220,26 +220,18 @@ a {
 
 .bxr {
   padding: 1rem;
-  background-color: blue;
-  border: 2px solid gray;
+  background-color: brown;
+  border: 2px solid #292929;
   color: white;
   text-align: center; }
 
 .axr {
   width: 100%;
-  height: 300px;
-  background-color: gray; }
+  height: 250px;
+  background-color: #292929; }
 
 .contenedor-imagens {
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-image: url("../img/descripcion.jpg");
-  background-size: cover;
-  background-color: red;
-  margin-top: 5px;
-  width: 100%;
-  height: 500px;
-  border: black solid 2px; }
+  background-color: #292929; }
 
 .contenedor-contacto {
   justify-content: center;
